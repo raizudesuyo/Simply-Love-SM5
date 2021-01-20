@@ -460,6 +460,14 @@ local Overrides = {
 		SelectType = "SelectMultiple",
 		Values = { "MissBecauseHeld", "NPSGraphAtTop" }
 	},
+	ErrorBar = {
+		Values = { "None", "Colorful", "Monochrome", "Text" },
+	},
+	-------------------------------------------------------------------------
+	ErrorBarOptions = {
+		SelectType = "SelectMultiple",
+		Values = { "ErrorBarMoveUp", "ErrorBarMultiTick" },
+	},
 	-------------------------------------------------------------------------
 	MeasureCounter = {
 		Values = { "None", "8th", "12th", "16th", "24th", "32nd" },
